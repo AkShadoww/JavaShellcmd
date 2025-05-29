@@ -1,0 +1,37 @@
+MyShell> pwd
+C:\My folder\java\Java_Shell_CMD
+MyShell> ls
+.classpath
+.project
+.settings
+bin
+shell_log.txt
+src
+MyShell> cd
+Usage: cd &lt;directory&gt;
+MyShell> cd bin
+
+MyShell> ping google.com
+
+Pinging google.com [2404:6800:4007:818::200e] with 32 bytes of data:
+Reply from 2404:6800:4007:818::200e: time=44ms 
+Reply from 2404:6800:4007:818::200e: time=70ms 
+Reply from 2404:6800:4007:818::200e: time=55ms 
+Reply from 2404:6800:4007:818::200e: time=60ms 
+
+Ping statistics for 2404:6800:4007:818::200e:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 44ms, Maximum = 70ms, Average = 57ms
+
+MyShell> 
+
+MyShell> history
+1: pwd
+2: ls
+3: cd
+4: cd bin
+5: ping google.com
+6: 
+7: history
+
